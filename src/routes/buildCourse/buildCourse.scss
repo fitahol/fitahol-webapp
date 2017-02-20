@@ -1,0 +1,128 @@
+hr {
+	width: 0!important;
+}
+
+.build-course-wrap {
+	margin-top: 1rem;
+	box-sizing: border-box;
+}
+.build-select-wrap {
+	padding: .8rem 1rem;
+	border-top: 1px solid rgba(0,0,0,.15);
+	border-bottom: 1px solid rgba(0,0,0,.15);
+	background-color: #fff;
+}
+.build-course-main {
+	background-color: #fff;
+	border-top: 1px solid rgba(0,0,0,.15);
+	border-bottom: 1px solid rgba(0,0,0,.15);
+	margin: 1rem 0;
+}
+.build-course-item {
+	overflow: hidden;
+	line-height: 48px;
+	margin: 0 .7rem;
+	border-bottom: 1px solid rgba(0,0,0,.15);
+	position: relative;
+}
+.build-course-item:last-child {
+	border-bottom: 0 none;
+}
+.build-course-item span {
+	float: left;
+	padding-left: .5rem;
+}
+.build-course-item .build-course-dateinfo{
+	width: 11rem;
+	position: absolute;
+	right: 1rem;
+	top: 0;
+}
+
+.date-time{
+	color: transparent;
+	background: transparent;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 48px;
+}
+.build-course-date {
+	float: right;
+}
+.build-course-date div{
+	font-size: 1.083rem!important;
+}
+
+.time-picker {
+	width: 5rem!important;
+}
+.select-type-wrap {
+	width: 10rem!important;
+}
+.remark-wrap {
+	padding: .5rem;
+}
+.remark-info {
+	width: 100%;
+	box-sizing: border-box;
+	height: 5rem;
+	border-radius: .3rem;
+	line-height: 1.6rem;
+	text-indent: 2rem;
+	border: 1px solid rgba(0,0,0,.15);
+}
+.build-confrim {
+	height: 3rem;
+	line-height: 3rem;
+	color: #fff;
+	background: #2b3297;
+	text-align: center;
+	margin: 1.5rem .5rem 0;
+	border-radius: .5rem;
+}
+
+.choose-repeat-week{
+	overflow: hidden;
+	padding-top: 1rem;
+}
+.repeat-week-item{
+	width: 25%!important;
+	float: left;
+	height: 2.6rem;
+	line-height: 2.6rem;
+	box-sizing: border-box;
+	margin-bottom: 1rem;
+}
+.repeat-week-item p{
+	background: #edf0f5;
+	margin-right: .5rem;
+	text-align: center;
+	color: #999;
+}
+.choose-repeat-week li:nth-child(4) p{
+	margin-right: 0;
+}
+.repeat-week-item-active p{
+	background: #76c639;
+	color: #fff;
+}
+.end-date-picker{
+	max-width: 70%;
+	overflow: hidden;
+}
+.end-date-picker div div{
+	left: 35%;
+}
+.end-date-picker input{
+	text-align: center;
+	font-size: 1.083rem!important;
+}
+
+.repeat-time-input{
+	width: 45%;
+	text-align: right;
+	margin-right: .5rem;
+}

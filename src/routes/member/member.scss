@@ -1,0 +1,29 @@
+.member-container{
+	background: #edf0f5;
+}
+.mermber-list{
+	padding: 0!important;
+	margin: 1rem .583rem 0;
+	border-top: 1px solid #f4f5f6;
+	background: #fff;
+}
+
+.avater-item{
+	position: relative;
+}
+
+.new-member{
+	margin-top: 1rem;
+}
+.add-member-search{
+	line-height: 2.4rem;
+	height: 2.4rem;
+	margin: .8rem 1.2rem;
+	background: #fff;
+	text-align: center;
+	padding-bottom: .5rem;
+	border-radius: .5rem;
+}
+.add-member-search svg{
+	transform: translateY(.5rem)
+}

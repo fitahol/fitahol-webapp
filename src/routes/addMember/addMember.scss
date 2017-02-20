@@ -1,0 +1,79 @@
+.add-member-item{
+	position: relative;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+.add-member-item img{
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: .5rem;
+}
+.add-member-item p{
+	padding-left: 1rem;
+}
+.add-member-item-btn{
+	position: absolute;
+	right: 0;
+	top: .5rem;
+}
+.add-member-item-btn a{
+	width: 4rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	border-radius: .2rem;
+	display: inline-block;
+}
+.add-member-item-btn a:first-child{
+	margin-right: .7rem;
+}
+
+hr {
+	width: 0!important;
+}
+.query-result-wrap{
+	border: 1rem solid #edf0f5;
+	position: relative;
+}
+.query-result-wrap .list-item{
+	margin: 0 auto;
+	position: relative;
+	padding: 0 1rem;
+}
+.list-item-right a{
+	width: 5rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	display: inline-block;
+	border-radius: .2rem;
+}
+.list-item-right .cancel-btn{
+	margin-right: 1rem;
+}
+.query-result-wrap div:first-child{
+	padding: .7rem 1rem;
+}
+.query-result-wrap img{
+	width: 4rem;
+	height: 4rem;
+	position:  absolute;
+	right: .9rem;
+	top: 1rem;
+}
+.query-result-btn{
+	position: absolute;
+	bottom: -4rem;
+	right: .9rem;
+}
+.query-result-btn a{
+	display: inline-block;
+		width: 5rem;
+		height: 2rem;
+		line-height: 2rem;
+		text-align: center;
+		margin-left: 1rem;
+		border-radius: .5rem;
+}

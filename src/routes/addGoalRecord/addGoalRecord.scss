@@ -1,0 +1,86 @@
+hr {
+	width: 0!important;
+}
+.add-course-main{
+	border-top: 10px solid #edf0f5;
+}
+.add-course-item{
+	border-bottom: 1px solid #f4f5f6;
+	overflow: hidden;
+	padding: .8rem 1rem .8rem 0;
+	position: relative;
+}
+.add-course-item span{
+	float: left;
+	padding: 0 1rem;
+	font-size: 1rem;
+	line-height: 48px;
+	text-align: center;
+}
+.add-course-item span:last-child{
+	position: absolute;
+	right: 1rem;
+}
+.add-course-info{
+	float: right;
+	border: 1px solid #f4f5f6;
+	border-radius: 5px;
+	text-align: center;
+}
+.add-course-time input{
+	width: 256px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 1rem;
+}
+.add-confirm{
+	height: 3.2rem;
+	line-height: 3.2rem;
+	color: #fff;
+	background: #2f3e9e;
+	text-align: center;
+	margin: 3rem 1rem 0;
+	border-radius: .5rem;
+	font-size: 1.3rem;
+	font-weight: bold;
+	// transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+.add-cancel{
+	background: #edf0f5;
+	color: rgba(0, 0, 0, 0.298039)
+}
+
+.add-course-textarea {
+	float: right;
+	border: 1px solid #f4f5f6;
+	border-radius: 5px;
+	width: 256px;
+	height: 88px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 1rem;
+}
+.record-cdate {
+	position: relative;
+}
+.record-cdate p{
+	width: 256px;
+	position: absolute;
+	right: 1rem;
+	top: .8rem;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+}
+.record-cdate input{
+	color: transparent;
+	background: transparent;
+	position: absolute;
+	right: 1rem;
+	top: .8rem;
+	z-index: 1;
+	width: 256px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 1rem;
+}

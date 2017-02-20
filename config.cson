@@ -1,0 +1,2 @@
+"tabs-to-spaces":
+  onSave: "tabify"

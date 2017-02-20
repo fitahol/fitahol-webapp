@@ -1,0 +1,37 @@
+.course-charts-wrap .recharts-wrapper{
+	padding: 1.2rem 0 0;
+}
+.course-charts-wrap{
+	min-height: 200px;
+}
+.week-month-course {
+	padding: 0 .5rem;
+}
+.week-month-course div{
+	width: 50%;
+	padding: .2rem 0;
+	text-align: center;
+	line-height: 1.8rem;
+	display: inline-block;
+	color: #fff;
+	background: #76c639;
+}
+.week-month-course h4{
+	display: inline-block;
+	text-align: left;
+}
+.week-month-course span{
+	display: inline-block;
+	padding-left: 5rem;
+}
+.week-month-course div:first-child{
+	background: #00BCD4;
+}
+.course-footer-wrap {
+	position: relative;
+}
+.course-footer-wrap p{
+	position: absolute;
+	right: 8%;
+	top: 90px;
+}

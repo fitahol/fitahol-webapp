@@ -1,0 +1,58 @@
+.coach-list-item{
+	margin: 0 .5rem .5rem;
+	background: #fff;
+	font-size: 1rem;
+	padding: 1rem;
+	color: #333;
+}
+.coach-list-avator{
+	position: relative;
+	padding-left: 4rem;
+	padding-bottom: 1.2rem;
+}
+.coach-list-avator img{
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.coach-list-avator p{
+	line-height: 1.5rem;
+}
+
+.coach-list-tags p{
+	line-height: 2rem;
+}
+.coach-list-tags span{
+	margin-left: 2em;
+	font-size: .917rem;
+	color: #999;
+}
+.enter-add-coach{
+	display: block;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	text-align: right;
+	padding-right: 1rem;
+}
+.enter-add-coach span svg{
+	color: #fff!important;
+	position: absolute;
+	left: .3rem;
+	top: .2rem;
+}
+.enter-add-coach span{
+	width: 6rem;
+	height: 2rem;
+	line-height: 2rem;
+	display: inline-block;
+	background: #76c639;
+	text-align: center;
+	color: #fff;
+	border-radius: .5rem;
+	position: relative;
+	padding-left: 1rem;
+}

@@ -1,0 +1,231 @@
+.clamp3 {
+	word-break: break-all;
+	display: flex;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	box-orient: vertical;
+	line-clamp: 3;
+}
+
+
+// theme1
+.theme1 .header, .theme1 .fitahol-title{
+	background: #2b3297;
+}
+.theme1 .fitahol-week-list, .theme1 .hour-active-item a {
+	background: #3742ae;
+}
+// theme2
+.theme2 .header, .theme2 .fitahol-title{
+	background: #00BCD4;
+}
+.theme2 .fitahol-week-list, .theme2 .hour-active-item a {
+	background: #15c0d6;
+}
+// theme3
+.theme3 .header, .theme3 .fitahol-title{
+	background: #ff4081;
+}
+.theme3 .fitahol-week-list, .theme3 .hour-active-item a {
+	background: #fd518c;
+}
+
+.fitahol-title {
+	width: 6rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	// background: #2b3297;
+	color: #fff;
+	padding-left: 1.2rem;
+	position: fixed;
+	right: 0;
+	top: .35rem;
+	z-index: 997;
+}
+.fitahol-title svg {
+	color: #fff!important;
+	width: 2rem!important;
+	height: 2rem!important;
+	position: absolute;
+	top: .3rem;
+	right: 1rem;
+}
+.fitahol-title-month{
+	position: fixed;
+	left: 1.5rem;
+	top: 0;
+	z-index: 997;
+	color: #fff;
+	line-height: 3.33rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.react-swipe-container {
+	// padding-top: 2.5rem;
+}
+.week-clendar-swipe {
+	background: #edf0f5;
+	padding-top: 5.22rem;
+}
+.fitahol-course {
+}
+.fitahol-week-list {
+	padding-left: 3rem;
+	// background: #3742ae;
+	color: #fff;
+	font-weight: bold;
+	margin-top: -1px;
+	position: fixed;
+	top: 3.33rem;
+	left: 0;
+}
+.fitahol-fix {
+	position: fixed;
+	left: 0;
+	top: 3.33rem;
+	width: 100%;
+	box-sizing: border-box;
+}
+.fitahol-week-list ul {
+	display: flex;
+}
+.fitahol-week-list li {
+	flex: 1;
+	line-height: 1.5rem;
+	font-size: 1.16rem;
+	text-align: center;
+	padding: 1rem 0;
+	position: relative;
+}
+.fitahol-week-list li:last-child {
+	border-right: 0 none
+}
+
+.fitahol-week-list li h5 {
+	font-size: .83rem;
+	font-weight: normal;
+	line-height: 1.8rem;
+	font-family: 'PingFang-SC-Medium';
+}
+.fitahol-week-list li p {
+	font-weight: bold;
+}
+.prev,.next {
+	position: fixed;
+	top: 50%;
+}
+.prev {
+	left: .2rem;
+}
+.next {
+	right: .2rem;
+}
+.fitahol-week-list .now-date:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3px;
+	background: #fb5340;
+}
+.hour-list {
+	width: 100%;
+	line-height: 2rem;
+	text-align: center;
+	margin-top: -1px;
+}
+.hour-item {
+	width: 100%;
+	height: 4rem;
+	line-height: 4rem;
+	border-bottom: 1px solid rgb(228,228,228);
+	display: flex;
+	box-sizing: border-box;
+}
+.hour-list:last-child .hour-item {
+	border-bottom: 0 none;
+}
+.hour-item .hour-item-title {
+	width: 3rem;
+	border-right: 1px solid rgb(230,230,230);
+	color: #666;
+	font-size: .83rem;
+}
+.hour-space-item {
+	width: 2rem;
+	flex: 1;
+	// border-right: 1px solid rgb(224,224,224);
+	position: relative;
+}
+.hour-space-item:nth-child(odd) {
+	border-right: 1px solid rgb(230,230,230);
+}
+.hour-space-item:nth-child(even) {
+	border-right: 1px solid rgb(228,228,228);
+}
+.hour-space-item:last-child {
+	border-right: 0 none
+}
+.hour-space-item a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	border-radius: 0;
+	color: #fff;
+	z-index: -1;
+}
+.hour-space-item img {
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	margin: .2rem auto;
+}
+.hour-space-item span {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: .35rem;
+	font-size: .83rem;
+	height: .83rem;
+	line-height: .83rem;
+}
+.hour-active-item a {
+	z-index: 1;
+	// background-color: #2b3297;
+	opacity: .9;
+	transition: all .5s linear;
+	font-size: 1.4rem;
+}
+.hour-space-item .random-info-show {
+	z-index: 1;
+	opacity: 1;
+	color: #333;
+	display: inline-block;
+	text-align: center;
+}
+.hour-space-item .random-info-show-half {
+	transform: translateY(2rem);
+}
+.hour-space-item .random-info-show0 {
+	background: #d5c3ed;
+}
+.hour-space-item .random-info-show1 {
+	background: #ebdac3;
+}
+.hour-space-item .random-info-show2 {
+	background: #c5cef6;
+}
+.hour-space-item .random-info-show3 {
+	background: #fbcee3;
+}
+.hour-space-item .random-info-show4 {
+	background: #d5f5c6;
+}

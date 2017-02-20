@@ -1,0 +1,13 @@
+.course-record-list {
+	position: relative;
+	border-bottom: 1px solid #f4f5f6;
+}
+.course-record-list img{
+	transform: translateY(5px);
+	width: 50px!important;
+	height: 50px!important;
+	background: #fff!important;
+}
+.course-record-list .next-icon{
+	right: 1.2rem;
+}
